@@ -1,0 +1,13 @@
+# Ignore everything in target/
+target/
+
+# BUT allow the built JAR file through
+!target/*.jar
+
+# Ignore IDE and build tool junk
+*.iml
+.idea/
+*.log
+.DS_Store
+.git
+.gitignore
